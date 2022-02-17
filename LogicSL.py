@@ -14,14 +14,15 @@ def loc(a):
     return int((ele+1)/2)
     
     
-cc = '(((avb)&d)>c)&f'
 
+'''
+cc = '(((avb)&d)>c)&f'
 
 par_cc=[]
 for y in cc:
     if y=="(" or y==")":
         par_cc.append(y)
-        
+'''
 
 def main(x):
     if x[0]!='(':
